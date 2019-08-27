@@ -1,4 +1,4 @@
-﻿/**/
+﻿/*
 #include <stdio.h>
 #include <malloc.h>
 
@@ -26,3 +26,4 @@ void main(void) {
 
 	//realloc函数可以 重新分配数组大小 realloc(pArr,1000); => 把内存变成1000 而不是加1000
 }
+*/
