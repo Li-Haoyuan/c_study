@@ -54,5 +54,11 @@
     <ClCompile Include="malloc_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Pointer_6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer_7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
