@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿/*
+#include <stdio.h>
 #include <malloc.h>
 
 void f(int ** q) { //q也是指针变量 所以占4(8)字节
@@ -12,5 +13,7 @@ void main(void) {
 	int* p;
 	f(&p);
 
-	printf("%d", *p);
+	printf("%d\n", *p);
 }
+
+*/
