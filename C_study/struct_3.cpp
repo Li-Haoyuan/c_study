@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿/*
+#include <stdio.h>
 
 //通过函数对结构体变量的输入和输出
 struct Student
@@ -38,3 +39,5 @@ void OutputStudent_2(struct Student *ob) {
 
 	printf("%d %f %c", ob->age, ob->score, ob->sex);
 }
+
+*/
