@@ -60,5 +60,14 @@
     <ClCompile Include="Pointer_7.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="struct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
