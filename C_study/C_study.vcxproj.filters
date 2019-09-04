@@ -13,73 +13,70 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\if">
-      <UniqueIdentifier>{5b942867-2f10-4b6c-9c95-4e347c111e36}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="study.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="printf.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="scanf.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="array.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer.cpp">
+    <ClCompile Include="if\if.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer_2.cpp">
+    <ClCompile Include="if\if_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer_3.cpp">
+    <ClCompile Include="指针\Pointer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer_4.cpp">
+    <ClCompile Include="指针\Pointer_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer_5.cpp">
+    <ClCompile Include="指针\Pointer_3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="malloc.cpp">
+    <ClCompile Include="指针\Pointer_4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="malloc_2.cpp">
+    <ClCompile Include="指针\Pointer_5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer_6.cpp">
+    <ClCompile Include="指针\Pointer_6.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer_7.cpp">
+    <ClCompile Include="指针\Pointer_7.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="struct.cpp">
+    <ClCompile Include="枚举\enum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="struct_2.cpp">
+    <ClCompile Include="动态内存分配\malloc.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="struct_3.cpp">
+    <ClCompile Include="动态内存分配\malloc_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="struct_4.cpp">
+    <ClCompile Include="结构体\struct.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="enum.cpp">
+    <ClCompile Include="结构体\struct_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Linked-list.cpp">
+    <ClCompile Include="结构体\struct_3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="if_2.cpp">
-      <Filter>源文件\if</Filter>
+    <ClCompile Include="结构体\struct_4.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="if.cpp">
-      <Filter>源文件\if</Filter>
+    <ClCompile Include="输入输出\printf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="输入输出\scanf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\Linked-list.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

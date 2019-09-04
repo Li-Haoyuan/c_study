@@ -123,27 +123,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="printf.cpp" />
-    <ClCompile Include="Pointer.cpp" />
-    <ClCompile Include="Pointer_2.cpp" />
-    <ClCompile Include="Pointer_3.cpp" />
-    <ClCompile Include="Pointer_4.cpp" />
-    <ClCompile Include="Pointer_5.cpp" />
-    <ClCompile Include="malloc.cpp" />
-    <ClCompile Include="malloc_2.cpp" />
-    <ClCompile Include="Pointer_6.cpp" />
-    <ClCompile Include="Pointer_7.cpp" />
-    <ClCompile Include="enum.cpp" />
-    <ClCompile Include="Linked-list.cpp" />
-    <ClCompile Include="struct_4.cpp" />
-    <ClCompile Include="struct_3.cpp" />
-    <ClCompile Include="struct_2.cpp" />
-    <ClCompile Include="struct.cpp" />
+    <ClCompile Include="if\if.cpp" />
+    <ClCompile Include="if\if_2.cpp" />
     <ClCompile Include="study.cpp" />
-    <ClCompile Include="scanf.cpp" />
-    <ClCompile Include="if.cpp" />
-    <ClCompile Include="if_2.cpp" />
     <ClCompile Include="array.cpp" />
+    <ClCompile Include="动态内存分配\malloc.cpp" />
+    <ClCompile Include="动态内存分配\malloc_2.cpp" />
+    <ClCompile Include="指针\Pointer.cpp" />
+    <ClCompile Include="指针\Pointer_2.cpp" />
+    <ClCompile Include="指针\Pointer_3.cpp" />
+    <ClCompile Include="指针\Pointer_4.cpp" />
+    <ClCompile Include="指针\Pointer_5.cpp" />
+    <ClCompile Include="指针\Pointer_6.cpp" />
+    <ClCompile Include="指针\Pointer_7.cpp" />
+    <ClCompile Include="枚举\enum.cpp" />
+    <ClCompile Include="结构体\struct.cpp" />
+    <ClCompile Include="结构体\struct_2.cpp" />
+    <ClCompile Include="结构体\struct_3.cpp" />
+    <ClCompile Include="结构体\struct_4.cpp" />
+    <ClCompile Include="输入输出\printf.cpp" />
+    <ClCompile Include="输入输出\scanf.cpp" />
+    <ClCompile Include="链表\Linked-list.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
