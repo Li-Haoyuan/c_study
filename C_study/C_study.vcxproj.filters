@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\if">
+      <UniqueIdentifier>{5b942867-2f10-4b6c-9c95-4e347c111e36}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="study.cpp">
@@ -22,12 +25,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="scanf.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="if.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="if_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="array.cpp">
@@ -77,6 +74,12 @@
     </ClCompile>
     <ClCompile Include="Linked-list.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="if_2.cpp">
+      <Filter>源文件\if</Filter>
+    </ClCompile>
+    <ClCompile Include="if.cpp">
+      <Filter>源文件\if</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
