@@ -72,5 +72,11 @@
     <ClCompile Include="struct_4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="enum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked-list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
