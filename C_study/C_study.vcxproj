@@ -137,13 +137,15 @@
     <ClCompile Include="指针\Pointer_6.cpp" />
     <ClCompile Include="指针\Pointer_7.cpp" />
     <ClCompile Include="枚举\enum.cpp" />
+    <ClCompile Include="结构体\struct_case1.cpp" />
+    <ClCompile Include="结构体\struct_5.cpp" />
     <ClCompile Include="结构体\struct.cpp" />
     <ClCompile Include="结构体\struct_2.cpp" />
     <ClCompile Include="结构体\struct_3.cpp" />
     <ClCompile Include="结构体\struct_4.cpp" />
+    <ClCompile Include="输入输出\cout_and_cin(c++).cpp" />
     <ClCompile Include="输入输出\printf.cpp" />
     <ClCompile Include="输入输出\scanf.cpp" />
-    <ClCompile Include="链表\Linked-list.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

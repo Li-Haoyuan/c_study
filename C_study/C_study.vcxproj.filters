@@ -75,7 +75,13 @@
     <ClCompile Include="输入输出\scanf.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="链表\Linked-list.cpp">
+    <ClCompile Include="结构体\struct_5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="输入输出\cout_and_cin(c++).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="结构体\struct_case1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
