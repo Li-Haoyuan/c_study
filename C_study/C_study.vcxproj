@@ -146,11 +146,6 @@
     <ClCompile Include="输入输出\cout_and_cin(c++).cpp" />
     <ClCompile Include="输入输出\printf.cpp" />
     <ClCompile Include="输入输出\scanf.cpp" />
-    <ClCompile Include="通讯录管理系统\main.cpp" />
-    <ClCompile Include="通讯录管理系统\do.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="通讯录管理系统\define.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

@@ -1,0 +1,55 @@
+﻿  do.cpp
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(9,11): warning C4566:  ユニバーサル文字名 '\u8FDB' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(14,11): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(14,11): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(18,12): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(18,12): warning C4566:  ユニバーサル文字名 '\u9009' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(18,12): warning C4566:  ユニバーサル文字名 '\u62E9' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(18,12): warning C4566:  ユニバーサル文字名 '\u522B' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(26,11): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(26,11): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(26,11): warning C4566:  ユニバーサル文字名 '\u9F84' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(29,11): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(29,11): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(32,11): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(32,11): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(46,44): warning C4566:  ユニバーサル文字名 '\u522B' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(46,78): warning C4566:  ユニバーサル文字名 '\u9F84' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(46,112): warning C4566:  ユニバーサル文字名 '\u7535' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(46,112): warning C4566:  ユニバーサル文字名 '\u8BDD' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(55,10): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(63,12): warning C4566:  ユニバーサル文字名 '\u5220' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(75,10): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(79,47): warning C4566:  ユニバーサル文字名 '\u522B' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(79,83): warning C4566:  ユニバーサル文字名 '\u9F84' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(79,119): warning C4566:  ユニバーサル文字名 '\u7535' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(79,119): warning C4566:  ユニバーサル文字名 '\u8BDD' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(93,10): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(98,12): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(98,12): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(102,13): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(102,13): warning C4566:  ユニバーサル文字名 '\u9009' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(102,13): warning C4566:  ユニバーサル文字名 '\u62E9' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(102,13): warning C4566:  ユニバーサル文字名 '\u522B' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(110,12): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(110,12): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(110,12): warning C4566:  ユニバーサル文字名 '\u9F84' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(113,12): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(113,12): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(116,12): warning C4566:  ユニバーサル文字名 '\u8BF7' によって表示されている文字は、現在のコード ページ (932) で表示できません
+  main.cpp
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\do.cpp(116,12): warning C4566:  ユニバーサル文字名 '\u8F93' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(38,12): warning C4566:  ユニバーサル文字名 '\u6B22' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(52,10): warning C4566:  ユニバーサル文字名 '\u8054' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(53,10): warning C4566:  ユニバーサル文字名 '\u663E' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(53,10): warning C4566:  ユニバーサル文字名 '\u8054' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(54,10): warning C4566:  ユニバーサル文字名 '\u5220' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(54,10): warning C4566:  ユニバーサル文字名 '\u8054' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(55,10): warning C4566:  ユニバーサル文字名 '\u67E5' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(55,10): warning C4566:  ユニバーサル文字名 '\u8054' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(56,10): warning C4566:  ユニバーサル文字名 '\u8054' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(57,10): warning C4566:  ユニバーサル文字名 '\u8054' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(58,10): warning C4566:  ユニバーサル文字名 '\u8BAF' によって表示されている文字は、現在のコード ページ (932) で表示できません
+  コードを生成中...
+C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\通讯录管理系统\main.cpp(58,10): warning C4566:  ユニバーサル文字名 '\u5F55' によって表示されている文字は、現在のコード ページ (932) で表示できません
+  通讯录管理系统.vcxproj -> C:\Users\Realsys-193\Desktop\C_study\通讯录管理系统\Debug\通讯录管理系统.exe

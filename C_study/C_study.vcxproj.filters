@@ -81,22 +81,11 @@
     <ClCompile Include="if\study.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="通讯录管理系统\main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="动态内存分配\new.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="通讯录管理系统\do.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="通讯录管理系统\define.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
