@@ -1,4 +1,5 @@
-﻿#include <iostream>
+﻿/*
+#include <iostream>
 using namespace std;
 
 //学生的构造体
@@ -49,3 +50,4 @@ void main(void) {
 	createData(teachers,len);
 	printData(teachers, len);
 }
+*/

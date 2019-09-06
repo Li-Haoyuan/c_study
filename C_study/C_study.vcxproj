@@ -125,10 +125,10 @@
   <ItemGroup>
     <ClCompile Include="if\if.cpp" />
     <ClCompile Include="if\if_2.cpp" />
-    <ClCompile Include="study.cpp" />
-    <ClCompile Include="array.cpp" />
+    <ClCompile Include="if\study.cpp" />
     <ClCompile Include="动态内存分配\malloc.cpp" />
     <ClCompile Include="动态内存分配\malloc_2.cpp" />
+    <ClCompile Include="动态内存分配\new.cpp" />
     <ClCompile Include="指针\Pointer.cpp" />
     <ClCompile Include="指针\Pointer_2.cpp" />
     <ClCompile Include="指针\Pointer_3.cpp" />
@@ -146,6 +146,14 @@
     <ClCompile Include="输入输出\cout_and_cin(c++).cpp" />
     <ClCompile Include="输入输出\printf.cpp" />
     <ClCompile Include="输入输出\scanf.cpp" />
+    <ClCompile Include="通讯录管理系统\main.cpp" />
+    <ClCompile Include="通讯录管理系统\do.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="通讯录管理系统\define.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
