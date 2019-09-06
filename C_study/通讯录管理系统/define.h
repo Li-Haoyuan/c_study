@@ -8,7 +8,7 @@ struct contact {
 	string name;
 	int sex;
 	int age;
-	int phone_number;
+	string phone_number;
 	string address;
 };
 
