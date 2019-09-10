@@ -126,9 +126,13 @@
     <ClCompile Include="if\if.cpp" />
     <ClCompile Include="if\if_2.cpp" />
     <ClCompile Include="if\study.cpp" />
+    <ClCompile Include="函数重载\overloaded function.cpp" />
     <ClCompile Include="动态内存分配\malloc.cpp" />
     <ClCompile Include="动态内存分配\malloc_2.cpp" />
     <ClCompile Include="动态内存分配\new.cpp" />
+    <ClCompile Include="引用\Reference.cpp" />
+    <ClCompile Include="引用\Reference_2.cpp" />
+    <ClCompile Include="引用\Reference_3.cpp" />
     <ClCompile Include="指针\Pointer.cpp" />
     <ClCompile Include="指针\Pointer_2.cpp" />
     <ClCompile Include="指针\Pointer_3.cpp" />
@@ -136,7 +140,10 @@
     <ClCompile Include="指针\Pointer_5.cpp" />
     <ClCompile Include="指针\Pointer_6.cpp" />
     <ClCompile Include="指针\Pointer_7.cpp" />
+    <ClCompile Include="指针\Pointer_8.cpp" />
+    <ClCompile Include="指针\Pointer_9.cpp" />
     <ClCompile Include="枚举\enum.cpp" />
+    <ClCompile Include="类\Class_封装_1.cpp" />
     <ClCompile Include="结构体\struct_case1.cpp" />
     <ClCompile Include="结构体\struct_5.cpp" />
     <ClCompile Include="结构体\struct.cpp" />

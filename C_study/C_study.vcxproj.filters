@@ -84,6 +84,27 @@
     <ClCompile Include="动态内存分配\new.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="引用\Reference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="引用\Reference_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="引用\Reference_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="指针\Pointer_8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="指针\Pointer_9.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="函数重载\overloaded function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_封装_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

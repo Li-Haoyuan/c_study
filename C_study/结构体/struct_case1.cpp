@@ -16,7 +16,7 @@ struct teacher
 };
 //赋值
 void createData(struct teacher * teachers,int len) {
-	//赋值嫌费劲可以用随机数 这里是手动 rand() % 61 + 40
+	//赋值嫌费劲可以用随机数 这里是手动。 随机 : rand() % 61 + 40
 	for (int i = 0; i < len; i++) {
 		cout << "teacherName:" << endl;
 		cin >> teachers[i].name;
