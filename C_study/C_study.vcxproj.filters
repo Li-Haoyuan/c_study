@@ -105,8 +105,17 @@
     <ClCompile Include="类\Class_封装_1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="类\Class_封装_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_封装_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="类\Class和struct区别.txt" />
   </ItemGroup>
 </Project>
