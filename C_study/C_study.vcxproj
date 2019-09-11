@@ -146,6 +146,10 @@
     <ClCompile Include="类\Class_封装_1.cpp" />
     <ClCompile Include="类\Class_封装_2.cpp" />
     <ClCompile Include="类\Class_封装_3.cpp" />
+    <ClCompile Include="类\Class_封装_构造和析构_4.cpp" />
+    <ClCompile Include="类\Class_封装_深拷贝与浅拷贝_5.cpp" />
+    <ClCompile Include="类\Class_封装_初始化列表_6.cpp" />
+    <ClCompile Include="类\Class_封装_静态成员变量和方法_7.cpp" />
     <ClCompile Include="结构体\struct_case1.cpp" />
     <ClCompile Include="结构体\struct_5.cpp" />
     <ClCompile Include="结构体\struct.cpp" />
