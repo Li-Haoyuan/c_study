@@ -111,16 +111,28 @@
     <ClCompile Include="类\Class_封装_3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="类\Class_封装_构造和析构_4.cpp">
+    <ClCompile Include="类\Class_对象特性_this_8.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="类\Class_封装_深拷贝与浅拷贝_5.cpp">
+    <ClCompile Include="类\Class_对象特性_初始化列表_6.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="类\Class_封装_初始化列表_6.cpp">
+    <ClCompile Include="类\Class_对象特性_构造和析构_4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="类\Class_封装_静态成员变量和方法_7.cpp">
+    <ClCompile Include="类\Class_对象特性_静态成员变量和方法_7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_对象特性_深拷贝与浅拷贝_5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_对象特性_常对象和常函数_9.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_友元_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_友元_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

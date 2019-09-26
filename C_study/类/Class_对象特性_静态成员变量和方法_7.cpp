@@ -1,4 +1,5 @@
-﻿#include <iostream>
+﻿/*
+#include <iostream>
 using namespace std;
 
 //静态成员变量和方法
@@ -57,3 +58,4 @@ int main(void) {
 	test01();
 	test02();
 }
+*/
