@@ -154,6 +154,10 @@
     <ClCompile Include="类\Class_对象特性_常对象和常函数_9.cpp" />
     <ClCompile Include="类\Class_友元_1.cpp" />
     <ClCompile Include="类\Class_友元_2.cpp" />
+    <ClCompile Include="类\Class_运算符重载_加号.cpp" />
+    <ClCompile Include="类\Class_运算符重载_左移运算符.cpp" />
+    <ClCompile Include="类\Class_运算符重载_递增运算符.cpp" />
+    <ClCompile Include="类\Class_运算符重载_赋值运算符.cpp" />
     <ClCompile Include="结构体\struct_case1.cpp" />
     <ClCompile Include="结构体\struct_5.cpp" />
     <ClCompile Include="结构体\struct.cpp" />

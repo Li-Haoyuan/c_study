@@ -135,6 +135,18 @@
     <ClCompile Include="类\Class_友元_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="类\Class_运算符重载_加号.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_运算符重载_左移运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_运算符重载_递增运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_运算符重载_赋值运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

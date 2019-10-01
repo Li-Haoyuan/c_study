@@ -1,4 +1,4 @@
-﻿
+﻿/*
 #include <iostream>
 using namespace std;
 
@@ -45,3 +45,4 @@ void admin::visit(building *b) {
 void main() {
 	admin c;
 }
+*/

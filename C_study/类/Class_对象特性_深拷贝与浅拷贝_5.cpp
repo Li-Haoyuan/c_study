@@ -54,5 +54,4 @@ int main(void) {
 	Person p2(p1);
 	cout << p1.age << endl;
 }
-
 */
