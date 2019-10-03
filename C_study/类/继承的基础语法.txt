@@ -1,0 +1,11 @@
+﻿语法 : class 子类 ： 继承方式 父类
+
+继承方式分三种：public protect private
+
+如果子类以public方式继承，则父类里面的public属性仍然是public，protect属性仍然是protect
+如果子类以protect方式继承，则父类里面的public属性变为protect，protect属性仍然是protect
+如果子类以private方式继承，则父类里面的public属性变为private，protect属性变为private
+
+无论哪一种继承方式，都不能访问父类的private属性
+
+子类也称为派生类 父类也称为基类

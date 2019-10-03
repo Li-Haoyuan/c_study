@@ -158,6 +158,11 @@
     <ClCompile Include="类\Class_运算符重载_左移运算符.cpp" />
     <ClCompile Include="类\Class_运算符重载_递增运算符.cpp" />
     <ClCompile Include="类\Class_运算符重载_赋值运算符.cpp" />
+    <ClCompile Include="类\Class_运算符重载_关系运算符.cpp" />
+    <ClCompile Include="类\Class_运算符重载_函数调用运算符.cpp" />
+    <ClCompile Include="类\Class_继承_继承中的对象模型.cpp" />
+    <ClCompile Include="类\Class_继承_子类父类构造函数的顺序.cpp" />
+    <ClCompile Include="类\Class_继承_同名成员处理.cpp" />
     <ClCompile Include="结构体\struct_case1.cpp" />
     <ClCompile Include="结构体\struct_5.cpp" />
     <ClCompile Include="结构体\struct.cpp" />
@@ -173,6 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="类\Class和struct区别.txt" />
+    <Text Include="类\继承的基础语法.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
