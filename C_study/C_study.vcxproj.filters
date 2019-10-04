@@ -162,6 +162,30 @@
     <ClCompile Include="类\Class_继承_同名成员处理.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="类\Class_继承_多继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_继承_菱形继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_多态_1基本语法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_多态_2计算器案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_多态_3纯虚函数和抽象类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_多态_4制作饮品案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_多态_5虚析构和纯虚析构.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类\Class_多态_6电脑组装案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

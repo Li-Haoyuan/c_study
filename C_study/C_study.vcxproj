@@ -163,6 +163,14 @@
     <ClCompile Include="类\Class_继承_继承中的对象模型.cpp" />
     <ClCompile Include="类\Class_继承_子类父类构造函数的顺序.cpp" />
     <ClCompile Include="类\Class_继承_同名成员处理.cpp" />
+    <ClCompile Include="类\Class_继承_多继承.cpp" />
+    <ClCompile Include="类\Class_继承_菱形继承.cpp" />
+    <ClCompile Include="类\Class_多态_1基本语法.cpp" />
+    <ClCompile Include="类\Class_多态_2计算器案例.cpp" />
+    <ClCompile Include="类\Class_多态_3纯虚函数和抽象类.cpp" />
+    <ClCompile Include="类\Class_多态_4制作饮品案例.cpp" />
+    <ClCompile Include="类\Class_多态_5虚析构和纯虚析构.cpp" />
+    <ClCompile Include="类\Class_多态_6电脑组装案例.cpp" />
     <ClCompile Include="结构体\struct_case1.cpp" />
     <ClCompile Include="结构体\struct_5.cpp" />
     <ClCompile Include="结构体\struct.cpp" />
