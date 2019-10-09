@@ -183,7 +183,19 @@
     <ClCompile Include="类\Class_多态_5虚析构和纯虚析构.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="类\Class_多态_6电脑组装案例%28未知bug%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="类\Class_多态_6电脑组装案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="文件操作\写入文本文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="文件操作\读取文本文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="文件操作\二进制写文件.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

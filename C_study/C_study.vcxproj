@@ -142,6 +142,9 @@
     <ClCompile Include="指针\Pointer_7.cpp" />
     <ClCompile Include="指针\Pointer_8.cpp" />
     <ClCompile Include="指针\Pointer_9.cpp" />
+    <ClCompile Include="文件操作\二进制写文件.cpp" />
+    <ClCompile Include="文件操作\读取文本文件.cpp" />
+    <ClCompile Include="文件操作\写入文本文件.cpp" />
     <ClCompile Include="枚举\enum.cpp" />
     <ClCompile Include="类\Class_封装_1.cpp" />
     <ClCompile Include="类\Class_封装_2.cpp" />
@@ -170,6 +173,7 @@
     <ClCompile Include="类\Class_多态_3纯虚函数和抽象类.cpp" />
     <ClCompile Include="类\Class_多态_4制作饮品案例.cpp" />
     <ClCompile Include="类\Class_多态_5虚析构和纯虚析构.cpp" />
+    <ClCompile Include="类\Class_多态_6电脑组装案例%28未知bug%29.cpp" />
     <ClCompile Include="类\Class_多态_6电脑组装案例.cpp" />
     <ClCompile Include="结构体\struct_case1.cpp" />
     <ClCompile Include="结构体\struct_5.cpp" />

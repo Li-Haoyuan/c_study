@@ -6,7 +6,7 @@ using namespace std;
 
 class AbstractCpu {
 public:
-	virtual void calculate() = 0;
+	virtual void calculate() = 0; 
 };
 
 class AbstractMemory {
@@ -21,7 +21,7 @@ public:
 
 class Computer {
 public:
-	Computer(AbstractCpu* cpu, AbstractMemory* memory, AbstractVideoCard* videocard) {
+	Computer(AbstractCpu * cpu, AbstractMemory * memory , AbstractVideoCard * videocard) {
 		this->cpu = cpu;
 		this->memory = memory;
 		this->videocard = videocard;
@@ -39,68 +39,50 @@ public:
 			delete cpu;
 			cpu = NULL;
 		}
-		if (memory != NULL) {
+		if(memory != NULL) {
 			delete memory;
 			memory = NULL;
 		}
-		if (videocard != NULL) {
+		if(videocard != NULL) {
 			delete videocard;
 			videocard = NULL;
 		}
-		cout << "释放完毕" << endl;
 	}
 	AbstractCpu* cpu;
 	AbstractMemory* memory;
 	AbstractVideoCard* videocard;
 };
 
-class interCpu :public AbstractCpu{
+class inter :public AbstractCpu, public AbstractMemory, public AbstractVideoCard {
 public:
-	void calculate() {
+	void calculate(){
 		cout << "inter cpu" << endl;
 	}
-};
-
-class interMemory : public AbstractMemory{
-public:
 	void storage() {
 		cout << "inter memory" << endl;
 	}
-};
-
-class interVideoCard :public AbstractVideoCard {
-public:
 	void display() {
 		cout << "inter videocard" << endl;
 	}
 };
 
-class lenovoCpu :public AbstractCpu{
+class lenovo :public AbstractCpu, public AbstractMemory, public AbstractVideoCard {
 public:
 	void calculate() {
 		cout << "lenovo cpu" << endl;
 	}
-};
-
-class lenovoMemory :public AbstractMemory{
-public:
 	void storage() {
 		cout << "lenovo memory" << endl;
 	}
-};
-
-class lenovoVideoCard :public AbstractVideoCard {
-public:
 	void display() {
 		cout << "lenovo videocard" << endl;
 	}
 };
 
 void main() {
-
-	AbstractCpu* cpu = new lenovoCpu;
-	AbstractMemory* memory = new interMemory;
-	AbstractVideoCard* videocard = new lenovoVideoCard;
+	AbstractCpu* cpu = new lenovo;
+	AbstractMemory* memory = new inter;
+	AbstractVideoCard* videocard = new lenovo;
 
 	Computer com(cpu, memory, videocard);
 	com.work();
