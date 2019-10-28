@@ -13,7 +13,7 @@ using namespace std;
 void main() {
 	//写文件
 
-	//1.包含头文件 fstreaml
+	//1.包含头文件 fstream
 
 	//2.创建流对象
 	ofstream ofs;

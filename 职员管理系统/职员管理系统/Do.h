@@ -2,6 +2,11 @@
 #include <iostream>
 #include "staff_class.h"
 
+
+#define FILENAME "empfile.txt"
+
+
+
 class definition {
 public:
 
@@ -10,6 +15,9 @@ public:
 
 	//スタッフ配列のポインタ
 	BaseStaff** old_size_adr;
+
+	//ファイルの存在するかどうかチェック
+	bool FileIsEmpty;
 
 	//コンストラクタ
 	definition();
@@ -38,4 +46,12 @@ public:
 	//メインメニュー表示
 	void showMainMenu();
 
+	//ファイルの中に書き込み
+	void save();
+
+	//既存データ数を取得する
+	int get_staffNum();
+
+	//既存データの初期化
+	void initStaff(int num);
 };

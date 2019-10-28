@@ -2,38 +2,42 @@
 #include "staff_class.h"
 using namespace std;
 
-class NormalStaff :public BaseStaff {
+NormalStaff ::NormalStaff(int id, string name, int pos) {
+	StaffId = id;
+	Name = name;
+	Position = pos;
+}
 
-public:
-	NormalStaff(int id, string name, int pos) {
-		StaffId = id;
-		Name = name;
-		Position = pos;
-	}
+void NormalStaff::ShowInfo(){
+	cout << "スタッフＩＤ:  "<< this->StaffId 
+		 << "\tスタッフ名:  "<< this->Name
+		 << "\tポジション:  "<< this->Position
+		 << "\t職務:任務を完成させる  "<< endl;
+}
 
-	string Duties = "任務を完成させる";
-};
+ManagerStaff ::ManagerStaff(int id, string name, int pos) {
+	StaffId = id;
+	Name = name;
+	Position = pos;
+}
 
-class ManagerStaff :public BaseStaff {
+void ManagerStaff::ShowInfo() {
+	cout << "スタッフＩＤ:  " << this->StaffId
+		<< "\tスタッフ名:  " << this->Name
+		<< "\tポジション:  " << this->Position
+		<< "\t職務:任務を配る  " << endl;
+}
 
-public:
-	ManagerStaff(int id, string name, int pos) {
-		StaffId = id;
-		Name = name;
-		Position = pos;
-	}
+BoseStaff :: BoseStaff(int id, string name, int pos) {
+	StaffId = id;
+	Name = name;
+	Position = pos;
+}
 
-	string Duties = "任務を配る";
-};
+void BoseStaff::ShowInfo() {
+	cout << "スタッフＩＤ:  " << this->StaffId
+		<< "\tスタッフ名:  " << this->Name
+		<< "\tポジション:  " << this->Position
+		<< "\t職務:すべての事務を管理する  " << endl;
+}
 
-class BoseStaff :public BaseStaff {
-
-public:
-	BoseStaff(int id, string name, int pos) {
-		StaffId = id;
-		Name = name;
-		Position = pos;
-	}
-
-	string Duties = "すべての事務を管理する";
-};
