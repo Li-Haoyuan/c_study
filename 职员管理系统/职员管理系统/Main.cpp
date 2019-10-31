@@ -83,6 +83,7 @@ definition::definition() {
 	int num = this->get_staffNum();
 	cout << "スタッフデータが" << num << "件を存在します。" << endl;
 	this->old_size = num;
+	this->FileIsEmpty = false;
 	this->initStaff(num);
 	return;
 }
@@ -96,7 +97,7 @@ cout << "*****3.職員編集*****" << endl;
 cout << "*****4.職員削除*****" << endl;
 cout << "*****5.職員検索*****" << endl;
 cout << "***6.データソート***" << endl;
-cout << "***7.ファイル削除***" << endl;
+cout << "***7.全データ削除***" << endl;
 cout << "***0.システム終了***" << endl;
 cout << "********************" << endl;
 
@@ -172,75 +173,84 @@ void definition::StaffAdd() {
 }
 
 void definition::StaffList() {
-	for (int i = 0; i < old_size; i++) {
-		old_size_adr[i]->ShowInfo();
+	if (this->FileIsEmpty == true) {
+		cout << "ファイルが存在しないかデータが見つかりません。" << endl;
+	}
+	else {
+		for (int i = 0; i < old_size; i++) {
+			old_size_adr[i]->ShowInfo();
+		}
 	}
 }
 
 void definition::StaffEdit() {
 	int no;
 	int flag = 0;
-
-	cout << "編集したいスタッフＩＤを入力してください" << endl;
-	cin >> no;
-	while (cin.fail())
-	{
-		cin.clear();
-		cin.ignore();
-		cout << "数字を入力してください。" << endl;
+	if (this->FileIsEmpty == true) {
+		cout << "ファイルが存在しないかデータが見つかりません。" << endl;
+	}
+	else {
+		cout << "編集したいスタッフＩＤを入力してください" << endl;
 		cin >> no;
-	}
-
-	for (int i = 0; i < old_size; i++) {
-		if (old_size_adr[i]->StaffId == no) {
-			int new_id;
-			string new_name;
-			int new_position;
-
-			cout << "新しいスタッフＩＤを入力してください。" << endl;
-			cin >> new_id;
-
-			while (cin.fail())
-			{
-				cin.clear();
-				cin.ignore();
-				cout << "数字を入力してください。" << endl;
-				cin >> no;
-			}
-
-			cout << "新しいスタッフ名前を入力してください。" << endl;
-			cin >> new_name;
-
-			cout << "新しいポジションを入力してください。" << endl;
-			cin >> new_position;
-
-			while (cin.fail())
-			{
-				cin.clear();
-				cin.ignore();
-				cout << "1～３の数字を入力してください。" << endl;
-				cin >> new_position;
-			}
-
-			switch (new_position) {
-			case 1:
-				old_size_adr[i] = new NormalStaff(new_id, new_name, new_position);
-				break;
-			case 2:
-				old_size_adr[i] = new ManagerStaff(new_id, new_name, new_position);
-				break;
-			case 3:
-				old_size_adr[i] = new BoseStaff(new_id, new_name, new_position);
-				break;
-			}
-			cout << "更新ができました。" << endl;
-
-			this->save();
-			flag = 1;
+		while (cin.fail())
+		{
+			cin.clear();
+			cin.ignore();
+			cout << "数字を入力してください。" << endl;
+			cin >> no;
 		}
-	}
-	if (flag == 0) {
-		cout << "該当データが見つかりませんでした。" << endl;
+
+		for (int i = 0; i < old_size; i++) {
+			if (old_size_adr[i]->StaffId == no) {
+				int new_id;
+				string new_name;
+				int new_position;
+
+				cout << "新しいスタッフＩＤを入力してください。" << endl;
+				cin >> new_id;
+
+				while (cin.fail())
+				{
+					cin.clear();
+					cin.ignore();
+					cout << "数字を入力してください。" << endl;
+					cin >> no;
+				}
+
+				cout << "新しいスタッフ名前を入力してください。" << endl;
+				cin >> new_name;
+
+				cout << "新しいポジションを入力してください。" << endl;
+				cin >> new_position;
+
+				while (cin.fail())
+				{
+					cin.clear();
+					cin.ignore();
+					cout << "1～３の数字を入力してください。" << endl;
+					cin >> new_position;
+				}
+
+				switch (new_position) {
+				case 1:
+					old_size_adr[i] = new NormalStaff(new_id, new_name, new_position);
+					break;
+				case 2:
+					old_size_adr[i] = new ManagerStaff(new_id, new_name, new_position);
+					break;
+				case 3:
+					old_size_adr[i] = new BoseStaff(new_id, new_name, new_position);
+					break;
+				}
+				cout << "更新ができました。" << endl;
+
+				this->save();
+				flag = 1;
+			}
+		}
+		if (flag == 0) {
+			cout << "該当データが見つかりませんでした。" << endl;
+		}
 	}
 }
 
@@ -248,40 +258,120 @@ void definition::StaffDelete() {
 	int no;
 	int flag = 0;
 
-	cout << "削除したいスタッフＩＤを入力してください" << endl;
-	cin >> no;
-	while (cin.fail())
-	{
-		cin.clear();
-		cin.ignore();
-		cout << "数字を入力してください。" << endl;
-		cin >> no;
+	if (this->FileIsEmpty == true) {
+		cout << "ファイルが存在しないかデータが見つかりません。" << endl;
 	}
+	else {
+		cout << "削除したいスタッフＩＤを入力してください" << endl;
+		cin >> no;
+		while (cin.fail())
+		{
+			cin.clear();
+			cin.ignore();
+			cout << "数字を入力してください。" << endl;
+			cin >> no;
+		}
 
-	for (int i = 0; i < old_size; i++) {
-		if (old_size_adr[i]->StaffId == no) {
-			for (i; i < old_size-1; i++) {
-				old_size_adr[i] = old_size_adr[i + 1];
+		for (int i = 0; i < old_size; i++) {
+			if (old_size_adr[i]->StaffId == no) {
+				for (i; i < old_size - 1; i++) {
+					old_size_adr[i] = old_size_adr[i + 1];
+				}
+
+				old_size -= 1;
+				cout << "削除しました。" << endl;
+				this->save();
+				flag = 1;
 			}
-			
-			old_size -= 1;
-			cout << "削除しました。" << endl;
-			flag = 1;
+		}
+		if (flag == 0) {
+			cout << "該当データが見つかりませんでした。" << endl;
 		}
 	}
-	if (flag == 0) {
-		cout << "該当データが見つかりませんでした。" << endl;
-	}
+	
 }
 
 void definition::StaffSearch() {
+	int no;
+	int flag = 0;
 
+	if (this->FileIsEmpty == true) {
+		cout << "ファイルが存在しないかデータが見つかりません。" << endl;
+	}
+	else {
+		cout << "検索したいスタッフＩＤを入力してください" << endl;
+		cin >> no;
+		while (cin.fail())
+		{
+			cin.clear();
+			cin.ignore();
+			cout << "数字を入力してください。" << endl;
+			cin >> no;
+		}
+
+		for (int i = 0; i < old_size; i++) {
+			if (old_size_adr[i]->StaffId == no) {
+				old_size_adr[i]->ShowInfo();
+				flag = 1;
+			}
+		}
+		if (flag == 0) {
+			cout << "該当データが見つかりませんでした。" << endl;
+		}
+	}
 }
+
 void definition::DataSort() {
+	if (this->FileIsEmpty == true) {
+		cout << "ファイルが存在しないかデータが見つかりません。" << endl;
+	}
+	else {
+		cout << "１.降順" << endl;
+		cout << "２.昇順" << endl;
 
-}
+		int selected;
+		cin >> selected;
+
+		if (selected == 1) {
+
+		}
+		else {
+
+		}
+	}
+}	
+
 void definition::FileDelete() {
+	if (this->FileIsEmpty == true) {
+		cout << "ファイルが存在しないかデータが見つかりません。" << endl;
+	}
+	else {
+		cout << "すべてのデータが削除されます、よろしいですか？" << endl;
+		cout << "1.はい" << endl;
+		cout << "2.いいえ" << endl;
 
+		int select;
+		cin >> select;
+		if (select == 1) {
+			ofstream ofs;
+			ofs.open(FILENAME,ios::trunc);
+			//ヒープ領域のデータを削除
+			for (int i = 0; i < this->old_size; i++) {
+				delete this->old_size_adr[i];
+				this->old_size_adr[i] = NULL;
+			}
+			delete[] this->old_size_adr;
+			this->old_size_adr = NULL;
+			this->FileIsEmpty = true;
+			this->old_size = 0;
+
+			cout << "削除できました。" << endl;
+		}
+		else {
+			return;
+		}
+		
+	}
 }
 
 void definition::save(){
