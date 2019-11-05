@@ -333,10 +333,30 @@ void definition::DataSort() {
 		cin >> selected;
 
 		if (selected == 1) {
-
+			for (int i = 0; i < this->old_size - 1; i++) {
+				for (int j = 0; j < this->old_size - i - 1; j++) {
+					if (this->old_size_adr[j]->StaffId < this->old_size_adr[j + 1]->StaffId) {
+						BaseStaff* temp = NULL;
+						temp = this->old_size_adr[j + 1];
+						this->old_size_adr[j + 1] = this->old_size_adr[j];
+						this->old_size_adr[j] = temp;
+					}
+				}
+			}
+			this->save();
 		}
 		else {
-
+			for (int i = 0; i < this->old_size - 1; i++) {
+				for (int j = 0; j < this->old_size - i - 1; j++) {
+					if (this->old_size_adr[j]->StaffId > this->old_size_adr[j + 1]->StaffId) {
+						BaseStaff* temp = NULL;
+						temp = this->old_size_adr[j];
+						this->old_size_adr[j] = this->old_size_adr[j + 1];
+						this->old_size_adr[j + 1] = temp;
+					}
+				}
+			}
+			this->save();
 		}
 	}
 }	
