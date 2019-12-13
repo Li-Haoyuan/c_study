@@ -198,6 +198,24 @@
     <ClCompile Include="文件操作\二进制写文件.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="模板\function模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="模板\function模板案例1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="模板\普通函数和函数模板调用规则.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="模板\function模板的局限性.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="结构体\struct_1.5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\linkedList_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
@@ -205,5 +223,6 @@
   <ItemGroup>
     <Text Include="类\Class和struct区别.txt" />
     <Text Include="类\继承的基础语法.txt" />
+    <Text Include="模板\函数模板和函数的区别.txt" />
   </ItemGroup>
 </Project>

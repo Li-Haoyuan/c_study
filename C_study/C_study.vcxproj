@@ -146,6 +146,10 @@
     <ClCompile Include="文件操作\读取文本文件.cpp" />
     <ClCompile Include="文件操作\写入文本文件.cpp" />
     <ClCompile Include="枚举\enum.cpp" />
+    <ClCompile Include="模板\function模板.cpp" />
+    <ClCompile Include="模板\function模板案例1.cpp" />
+    <ClCompile Include="模板\function模板的局限性.cpp" />
+    <ClCompile Include="模板\普通函数和函数模板调用规则.cpp" />
     <ClCompile Include="类\Class_封装_1.cpp" />
     <ClCompile Include="类\Class_封装_2.cpp" />
     <ClCompile Include="类\Class_封装_3.cpp" />
@@ -175,6 +179,7 @@
     <ClCompile Include="类\Class_多态_5虚析构和纯虚析构.cpp" />
     <ClCompile Include="类\Class_多态_6电脑组装案例%28未知bug%29.cpp" />
     <ClCompile Include="类\Class_多态_6电脑组装案例.cpp" />
+    <ClCompile Include="结构体\struct_1.5.cpp" />
     <ClCompile Include="结构体\struct_case1.cpp" />
     <ClCompile Include="结构体\struct_5.cpp" />
     <ClCompile Include="结构体\struct.cpp" />
@@ -184,11 +189,13 @@
     <ClCompile Include="输入输出\cout_and_cin(c++).cpp" />
     <ClCompile Include="输入输出\printf.cpp" />
     <ClCompile Include="输入输出\scanf.cpp" />
+    <ClCompile Include="链表\linkedList_1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="模板\函数模板和函数的区别.txt" />
     <Text Include="类\Class和struct区别.txt" />
     <Text Include="类\继承的基础语法.txt" />
   </ItemGroup>
