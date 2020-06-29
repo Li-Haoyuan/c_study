@@ -146,6 +146,7 @@
     <ClCompile Include="文件操作\读取文本文件.cpp" />
     <ClCompile Include="文件操作\写入文本文件.cpp" />
     <ClCompile Include="枚举\enum.cpp" />
+    <ClCompile Include="栈\stack.cpp" />
     <ClCompile Include="模板\function模板.cpp" />
     <ClCompile Include="模板\function模板案例1.cpp" />
     <ClCompile Include="模板\function模板的局限性.cpp" />
@@ -189,7 +190,9 @@
     <ClCompile Include="输入输出\cout_and_cin(c++).cpp" />
     <ClCompile Include="输入输出\printf.cpp" />
     <ClCompile Include="输入输出\scanf.cpp" />
-    <ClCompile Include="链表\linkedList_1.cpp" />
+    <ClCompile Include="链表\linkedList定义.cpp" />
+    <ClCompile Include="链表\linkedList实现.cpp" />
+    <ClCompile Include="队列\Queue_1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

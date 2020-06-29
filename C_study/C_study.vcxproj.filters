@@ -213,7 +213,16 @@
     <ClCompile Include="结构体\struct_1.5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="链表\linkedList_1.cpp">
+    <ClCompile Include="链表\linkedList定义.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\linkedList实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="栈\stack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="队列\Queue_1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
